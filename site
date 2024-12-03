@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KloudBy - Finance & Crypto Insights</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-white shadow">
+        <div class="max-w-7xl mx-auto py-6 px-4">
+            <div class="w-48">
+                <svg viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M40 35c0-6.627-5.373-12-12-12-1.53 0-2.99.287-4.335.81C22.269 17.169 16.357 12 9.5 12 4.253 12 0 16.253 0 21.5c0 .597.056 1.181.164 1.748C.056 23.819 0 24.403 0 25c0 5.247 4.253 9.5 9.5 9.5h18.76C34.747 34.5 40 29.247 40 24z" fill="#2563eb"/>
+                    <text x="50" y="30" font-family="Arial" font-size="24" font-weight="bold" fill="#1e40af">
+                        Kloud<tspan fill="#2563eb">By</tspan>
+                    </text>
+                    <text x="50" y="45" font-family="Arial" font-size="12" fill="#64748b">
+                        Finance & Crypto Insights
+                    </text>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <div class="max-w-7xl mx-auto py-12 px-4">
+            <div class="text-center">
+                <h1 class="text-4xl font-bold text-gray-900 mb-8">
+                    Newsletter quotidienne finance et crypto
+                </h1>
+                <p class="text-xl text-gray-600 mb-8">
+                    Analyses de marché, tendances et opportunités d'investissement directement dans votre boîte mail
+                </p>
+                <div class="bg-blue-50 p-6 rounded-lg mb-8">
+                    <p class="text-2xl font-bold text-blue-600 mb-2">99€/mois</p>
+                    <p class="text-gray-600">Abonnement mensuel - Analyses quotidiennes</p>
+                </div>
+                <form class="max-w-md mx-auto">
+                    <div class="flex gap-4">
+                        <input type="email" placeholder="Votre email" class="flex-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <button type="submit" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            S'abonner
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="bg-white py-12">
+            <div class="max-w-7xl mx-auto px-4 grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-lg p-6 mb-4">
+                        <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold mb-2">Analyses de Marché</h2>
+                    <p class="text-gray-600">Analyses approfondies des tendances financières et crypto</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-lg p-6 mb-4">
+                        <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold mb-2">Newsletter Quotidienne</h2>
+                    <p class="text-gray-600">Insights et analyses chaque jour dans votre boîte mail</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-blue-100 rounded-lg p-6 mb-4">
+                        <svg class="w-12 h-12 mx-auto text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+                        </svg>
+                    </div>
+                    <h2 class="text-xl font-semibold mb-2">Contenu Expert</h2>
+                    <p class="text-gray-600">Analyses dédiées aux investisseurs particuliers et professionnels</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Target Audience -->
+        <div class="bg-gray-50 py-12">
+            <div class="max-w-7xl mx-auto px-4">
+                <h2 class="text-3xl font-bold text-center mb-8">Pour qui ?</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-semibold mb-4">Investisseurs</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Traders actifs</li>
+                            <li>• Investisseurs particuliers</li>
+                            <li>• Professionnels de la finance</li>
+                        </ul>
+                    </div>
+                    <div class="bg-white p-6 rounded-lg shadow">
+                        <h3 class="text-xl font-semibold mb-4">Notre approche</h3>
+                        <ul class="space-y-2 text-gray-600">
+                            <li>• Contenu éducatif et analytique</li>
+                            <li>• Analyses objectives des marchés</li>
+                            <li>• Focus sur les opportunités d'investissement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="max-w-7xl mx-auto py-12 px-4">
+            <div class="bg-white rounded-lg shadow-lg p-8">
+                <h2 class="text-2xl font-bold mb-6">Contactez-nous</h2>
+                <address class="not-italic text-gray-600">
+                    KloudBy<br>
+                    Suite 2 - The old Station House<br>
+                    15 main street Blackrock<br>
+                    Dublin, Co. Dublin<br>
+                    A94T8P8<br>
+                    Ireland
+                </address>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto py-8 px-4">
+            <div class="grid md:grid-cols-3 gap-8 text-sm">
+                <div>
+                    <h3 class="font-semibold mb-4">Mentions légales</h3>
+                    <p>Les analyses fournies sont à titre informatif uniquement et ne constituent pas des conseils d'investissement personnalisés.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Protection des données</h3>
+                    <p>Vos données sont protégées conformément au RGPD. Consultez notre politique de confidentialité.</p>
+                </div>
+                <div>
+                    <h3 class="font-semibold mb-4">Paiement sécurisé</h3>
+                    <p>Paiements sécurisés via Stripe. Facturation automatique mensuelle.</p>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p>&copy; 2024 KloudBy. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
